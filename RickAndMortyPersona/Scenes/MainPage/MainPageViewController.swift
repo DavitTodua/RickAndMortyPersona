@@ -90,7 +90,7 @@ extension MainPageViewController {
     }
     
     private func setupNavigationBarTitle() {
-        self.navigationController?.navigationBar.topItem?.title = "Rick And Morty"
+        self.navigationController?.navigationBar.topItem?.title = "Alien Characters"
         self.navigationController?.navigationBar.titleTextAttributes = [
             NSAttributedString.Key.foregroundColor : UIColor(named: "TextWhite")!,
             NSAttributedString.Key.font: UIFont(name: "Georgia-Bold", size: 24)!
