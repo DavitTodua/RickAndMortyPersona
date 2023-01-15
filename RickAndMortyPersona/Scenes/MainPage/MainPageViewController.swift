@@ -68,6 +68,7 @@ extension MainPageViewController {
         setupConstraints()
         searchBar.delegate = self
         setupColors()
+        UITextField.appearance().keyboardAppearance = UIKeyboardAppearance.dark
     }
     
     private func setupColors() {
