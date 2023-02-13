@@ -15,6 +15,7 @@ public enum Spacing: Int {
     case L2 = 18
     case XL = 20
     case XXL = 32
+    case XXL2 = 40
 }
 
 public extension Spacing {
